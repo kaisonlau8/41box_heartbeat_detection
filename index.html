@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>41Box Heartbeat Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>41Box Status</h1>
+            <div id="current-status" class="status-badge loading">Checking...</div>
+        </header>
+
+        <main>
+            <section class="overview">
+                <div class="card">
+                    <h3>Last Checked</h3>
+                    <p id="last-checked">--</p>
+                </div>
+                <div class="card">
+                    <h3>Response Time</h3>
+                    <p id="response-time">-- ms</p>
+                </div>
+                <div class="card">
+                    <h3>Uptime (24h)</h3>
+                    <p id="uptime-percentage">--%</p>
+                </div>
+            </section>
+
+            <section class="charts">
+                <h2>Response Time History</h2>
+                <div class="chart-container">
+                    <!-- Simple CSS bar chart or canvas can go here -->
+                    <canvas id="responseChart"></canvas>
+                </div>
+            </section>
+
+            <section class="logs">
+                <h2>Recent Checks</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Status</th>
+                                <th>Code</th>
+                                <th>Response Time</th>
+                            </tr>
+                        </thead>
+                        <tbody id="log-body">
+                            <!-- Logs will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Powered by GitHub Actions & Pages</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
