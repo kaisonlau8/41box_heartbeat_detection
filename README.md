@@ -2,7 +2,7 @@
 
 A serverless status monitoring dashboard for [41box.com](https://41box.com), powered by GitHub Actions and GitHub Pages.
 
-![Dashboard Preview](https://github.com/kaisonlau8/41box_heartbeat_detection/blob/main/local_dashboard_view_1763802651982.png?raw=true)
+![Dashboard Preview](https://github.com/kaisonlau8/41box_heartbeat_detection/blob/main/dashboard_preview.png?raw=true)
 *(Note: Screenshot placeholder - once deployed, the live site will show real-time data)*
 
 ## Features
