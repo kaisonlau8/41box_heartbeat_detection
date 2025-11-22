@@ -46,5 +46,11 @@
     "status": "up",
     "responseTime": 139,
     "code": 200
+  },
+  {
+    "timestamp": "2025-11-22T11:40:17.453Z",
+    "status": "up",
+    "responseTime": 168,
+    "code": 200
   }
 ]
