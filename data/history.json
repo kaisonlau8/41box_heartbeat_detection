@@ -364,5 +364,11 @@
     "status": "up",
     "responseTime": 184,
     "code": 200
+  },
+  {
+    "timestamp": "2025-11-23T11:21:49.558Z",
+    "status": "up",
+    "responseTime": 227,
+    "code": 200
   }
 ]
