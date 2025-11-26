@@ -1234,5 +1234,11 @@
     "status": "up",
     "responseTime": 169,
     "code": 200
+  },
+  {
+    "timestamp": "2025-11-26T10:56:02.540Z",
+    "status": "up",
+    "responseTime": 210,
+    "code": 200
   }
 ]
