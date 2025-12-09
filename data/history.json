@@ -4936,5 +4936,11 @@
     "status": "up",
     "responseTime": 222,
     "code": 200
+  },
+  {
+    "timestamp": "2025-12-09T09:55:10.699Z",
+    "status": "up",
+    "responseTime": 194,
+    "code": 200
   }
 ]
