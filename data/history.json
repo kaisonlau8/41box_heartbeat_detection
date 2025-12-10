@@ -5224,5 +5224,11 @@
     "status": "up",
     "responseTime": 250,
     "code": 200
+  },
+  {
+    "timestamp": "2025-12-10T10:57:57.775Z",
+    "status": "up",
+    "responseTime": 175,
+    "code": 200
   }
 ]
