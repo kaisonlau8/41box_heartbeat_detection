@@ -10432,5 +10432,11 @@
     "status": "up",
     "responseTime": 220,
     "code": 200
+  },
+  {
+    "timestamp": "2025-12-24T09:11:59.690Z",
+    "status": "up",
+    "responseTime": 123,
+    "code": 200
   }
 ]
