@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2026-01-24T19:49:42.198Z",
-    "status": "up",
-    "responseTime": 156,
-    "code": 200
-  },
-  {
     "timestamp": "2026-01-24T20:08:58.227Z",
     "status": "up",
     "responseTime": 128,
@@ -11997,6 +11991,12 @@
     "timestamp": "2026-03-02T20:47:30.995Z",
     "status": "up",
     "responseTime": 142,
+    "code": 200
+  },
+  {
+    "timestamp": "2026-03-02T21:15:57.643Z",
+    "status": "up",
+    "responseTime": 211,
     "code": 200
   }
 ]
